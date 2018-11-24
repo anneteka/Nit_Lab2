@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "description": "init packae",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "alert(\"hello\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anneteka/Nit_Lab2.git"
+  },
+  "keywords": [
+    "nit",
+    "lab2"
+  ],
+  "author": "anna karlysheva",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/anneteka/Nit_Lab2/issues"
+  },
+  "homepage": "https://github.com/anneteka/Nit_Lab2#readme"
+}
