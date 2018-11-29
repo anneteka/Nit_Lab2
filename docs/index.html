@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="./js/main.js"></script>
-</head>
-<body>
 
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body style="margin: 0px">
+<header class="menu-holder">
+    <div class="logo">
+        <img src="images/logo.png" height="80px" width="80px">
+    </div>
+    <div class="basket-container">
+        <div class="basket-amount"></div>
+        <button class="basket-c" id="basket-b"
+                onclick="basket()"
+                style=" background: url('images/cart.png') no-repeat;
+height: 60px; width: 60px;
+  background-size:60px auto;">
+        </button>
+    </div>
+
+</header>
+<div class="content-row">
+    <div class="body">
+        <div class="row">
+            <div class="col-menu" id="left-menu">
+                <div class="left-menu">
+                    <div class="category-title">
+                        <span>Категорії</span>
+                    </div>
+                    <div class="category-holder" id="category">
+                        <div class='side-menu'>
+                            <button class='menu-link' title='All' id='category-All'>All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-content" style="border: 1px solid black;">
+                <div id="spa-holder">
+                    <div class="product-helper"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 </body>
 </html>
