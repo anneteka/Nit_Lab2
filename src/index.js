@@ -1,8 +1,3 @@
-//TODO
-/*
-* css для сторінки товару
-*/
-
 
 console.log('Hello!');
 console.log(`The time is ${new Date()}`);
