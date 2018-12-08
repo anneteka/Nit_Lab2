@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body style="margin: 0px">
-<header class="menu-holder">
+<header class="menu-holder" style="z-index: 500">
     <div class="logo">
         <img src="images/logo.png" height="80px" width="80px">
     </div>
     <div class="basket-container">
-        <div class="basket-amount"></div>
         <button class="basket-c" id="basket-b"
-                onclick="basket()"
                 style=" background: url('images/cart.png') no-repeat;
 height: 60px; width: 60px;
   background-size:60px auto;">
@@ -38,7 +36,7 @@ height: 60px; width: 60px;
                     </div>
                 </div>
             </div>
-            <div class="col-content" style="border: 1px solid black;">
+            <div class="col-content">
                 <div id="spa-holder">
                     <div class="product-helper"></div>
                 </div>
