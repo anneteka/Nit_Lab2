@@ -194,7 +194,7 @@ async function showProduct(id, category) {
 
     let write = "";
     write+="<div class='button-back' id='back-"+category+"' style=\" "+
-         "background: url('images/backButton.png') no-repeat; height: 60px; width: 60px; background-size:60px auto;\">"+
+         "background: url('../docs/images/backButton.png') no-repeat; height: 60px; width: 60px; background-size:60px auto;\">"+
               " </button>";
     write+="</div>";
     write+="<div class='product-page'>";
