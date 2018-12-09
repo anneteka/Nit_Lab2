@@ -42,8 +42,8 @@ module.exports = {
             filename: "css/[name].css",
         }),
     ],
-    optimization: {
-        // We no not want to minimize our code.
-        minimize: false
-    }
+    // optimization: {
+    //     // We no not want to minimize our code.
+    //     minimize: false
+    // }
 };
